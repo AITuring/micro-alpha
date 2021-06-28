@@ -2,7 +2,7 @@ const Hello = () => {
   return (
     <>
       <div>Hello</div>
-      <button onClick={window.open('/', '_blank')}>open</button>
+      <button onClick={() => window.open('/', '_blank')}>open</button>
     </>
   );
 };
